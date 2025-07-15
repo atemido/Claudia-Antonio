@@ -18,7 +18,6 @@ html, body {
 .carousel-inner,
 .carousel-item {
   height: 100vh; /* 100% da altura da viewport */
-  width: 100vw; /* 100% da largura da viewport para que o object-fit funcione bem */
   background-color: #f8eee1; /* Cor de fundo para preencher espaços */
   /* Importante: Remova quaisquer margens ou paddings do Bootstrap que possam estar afetando esses elementos */
 }

@@ -1,0 +1,21 @@
+/* Garante que o body e o html ocupem 100% da altura da viewport e remove margens/padding padrão */
+html, body {
+  display: flex; /* Habilita Flexbox no body */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: #f8eee1; /* Cor de fundo para preencher espaços */
+}
+
+/* Define a altura do carousel para 100% da viewport e a cor de fundo */
+#carouselExampleFade,
+.carousel-inner,
+.carousel-item {
+  height: 100vh; /* 100% da altura da viewport */
+  background-color: #f8eee1; /* Cor de fundo para preencher espaços */
+}
+
+/* Estiliza as imagens dentro do carousel */
+.carousel-item img {
+  height: 100%; /* A imagem tentará ocupar 100% da altura do item */
+  object-fit: contain; /* Redimensiona a imagem para caber dentro do container, mantendo o aspeto e preenchendo o espaço restante */
+}

@@ -1,5 +1,6 @@
 /* Garante que o body e o html ocupem 100% da altura da viewport e remove margens/padding padrão */
 html, body {
+  height: 100%;
   display: flex; /* Habilita Flexbox no body */
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
   align-items: center; /* Centraliza o conteúdo verticalmente */

@@ -21,8 +21,6 @@ html, body {
   width: 100vw; /* 100% da largura da viewport para que o object-fit funcione bem */
   background-color: #f8eee1; /* Cor de fundo para preencher espaços */
   /* Importante: Remova quaisquer margens ou paddings do Bootstrap que possam estar afetando esses elementos */
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 /* Estiliza as imagens dentro do carousel */
